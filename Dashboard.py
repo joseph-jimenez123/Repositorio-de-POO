@@ -30,6 +30,18 @@ def mostrar_menu():
     # Define la ruta base donde se encuentra el dashboard.py
     ruta_base = os.path.dirname(__file__)
 
+    def mostrar_menu():
+        # Define la ruta base donde se encuentra el dashboard.py
+        ruta_base = os.path.dirname(__file__)
+
+        # Adaptación de Joseph: Lista de mis tareas personales
+        opciones = {
+            '1': 'UNIDAD 1/constructores y destructores.py',
+            '2': 'UNIDAD 1/gestion_inventario.py',
+            '3': 'UNIDAD 1/Herencia, Encapsulación y Polimorfismo.py',
+            '4': 'UNIDAD 1/Programación Orientada a objetos.py'
+        }
+
     unidades = {
         '1': 'Unidad 1',
         '2': 'Unidad 2'
@@ -113,4 +125,6 @@ def mostrar_scripts(ruta_sub_carpeta):
 # Ejecutar el dashboard
 if __name__ == "__main__":
     mostrar_menu()
+
+
 
